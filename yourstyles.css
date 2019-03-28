@@ -1,0 +1,30 @@
+header{
+    height:100px;
+    background-color:blue
+}
+
+.title{
+    text-align: center;
+}
+
+.option{
+    margin: 24px 0;
+    padding: 4px;
+
+}
+
+.price{
+    display: black;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+
+
+
+#cart{
+    padding: 16px;
+    border: 2px solid royalblue 0,20
+    width: 400px;
+    margin: 0 auto;
+}
