@@ -28,3 +28,12 @@ header{
     width: 400px;
     margin: 0 auto;
 }
+
+#cart > select,
+#cart > input {
+    margin-right: 16px
+}
+
+output{
+    font-weight: 700;
+}
