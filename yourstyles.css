@@ -1,38 +1,37 @@
 header{
-    height: 125px;
-    background-color: rgb(0,200,200);
-}
-
-.title{
+    height: 100px;
+    background-color: teal;
     text-align: center;
-}
-
-.option{
+ }
+ .title{
+    text-align: center
+ }
+ .option{
     margin: 24px 0;
     padding: 4px;
-}
-
-.price{
+ }
+ .price{
     display: block;
     font-size: 30px;
     margin: 0 auto;
-}
-
-#cart{
+ }
+ #cart{
     padding: 16px;
-    border: 2px solid rgb(0,200,200);
+    border: 2px solid rgb(0, 200, 200);
     width: 600px;
     margin: 0 auto;
-}
-
-#cart > select,
-#cart > input,
-#cart > output{
+ 
+ }
+ 
+ #cart > select,
+ #cart > input,
+ #cart > output{
     width: 75px;
     margin-right: 16px;
-}
-
-output{
+ 
+ }
+ output{
     font-weight: 700;
     width: 100px;
-}
+ }
+ 

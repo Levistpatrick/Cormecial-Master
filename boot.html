@@ -1,104 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Template</title>
-    <!-- IMPORTED BOOTSTRAP CONTENT -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- YOUR CSS STYLES -->
-    <link rel="stylesheet" href="yourstyles.css">
-  </head>
-  <body>
-<header>
-  <h1 class = "title">Best Company Name (Ilan).</h1>
-</header>
-<section class="container">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Template</title>
+   <!-- IMPORTED BOOTSTRAP CONTENT -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- YOUR CSS STYLES -->
+   <link rel="stylesheet" href="yourstyles.css">
+ </head>
+ <body>
+   <header>
+     <h1>andrew</h1>
 
-        <div class="row">
-          <div class = "col-12 col-sm-6 col-lg-4 option">
-            <h3 class="title"> option A</h3>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil repellendus saepe modi delectus molestias sapiente natus, odio perferendis expedita officia, beatae fugit alias nesciunt iure nulla exercitationem placeat! Consequuntur, corporis?</p>
-          <a class="price title" href= "">$19.99</a>
-          </div>
-
-          <div class="row">
-            <div class = "col-12 col-sm-6 col-lg-4 option">
-              <h3 class="title"> option B</h3>
-              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil repellendus saepe modi delectus molestias sapiente natus, odio perferendis expedita officia, beatae fugit alias nesciunt iure nulla exercitationem placeat! Consequuntur, corporis?</p>
-            <a class="price title" href= "">$24.99</a>
-            </div>
-
-            <div class="row">
-              <div class = "col-12 col-sm-6 col-lg-4 option">
-                <h3 class="title"> option C</h3>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil repellendus saepe modi delectus molestias sapiente natus, odio perferendis expedita officia, beatae fugit alias nesciunt iure nulla exercitationem placeat! Consequuntur, corporis?</p>
-              <a class="price title" href= "">$29.99</a>
-              </div>
-              </div>
-
-
-
-
-  
-        </div>
-        <form id="cart" class="row" method="GET" action="checkou.html" oninput = "calculate()">
-          Options:
-          <select name="option" id="option">
-            <option value="19.99">A</option>
-            <option value="24.99">B</option>
-            <option value="29.99">C</option>
-          </select>
-          Months: <inputs id="time" name="time" type="number" value="12" min="0">
-            Total: <output id="results" name="out" for="option time"></output>
-          <input type="submit" value="submit">
-          
-      </form>
-</section>
-
-<script>
-function calculate (){
-  let doc= document;
-  let option = doc.getElementById("option");
-  let time= doc.getElementById("time");
-  let result = doc.getElementById("result");
-
-  result.value= "$" + Number(parseFloat(option.value)) *
-  parseInt(time.value) .toPrecision(5);
-}
-
-
-</script>
-
-    <!-- IMPORTED BOOTSTRAP CONTENT -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
-
-<link rel="stylesheet" href="yourstyles.css"
-
+    </header>
+    <section class = "container">
+       <div class = "row">
+         <div class = "col-12 col-sm-6 col-lg-4 option">
+           <h3 class = "title">Option A</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, facere pariatur eos aliquam quis, animi veritatis consequatur quidem, vitae debitis cumque velit nesciunt adipisci sequi consectetur illo soluta earum sapiente.</p>
+           <a class = "price title" href = "">$19.99</a>
+         </div>
+         <div class = "col-12 col-sm-6 col-lg-4 option">
+           <h3 class = "title">Option B</h3>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem unde beatae deleniti ipsum? Ullam, autem ipsum? Ea quos nostrum inventore qui nemo modi consequuntur delectus. Necessitatibus quisquam consectetur architecto ratione.</p>
+           <a class = "price title" href = "">$24.99</a>
+         </div>
+         <div class = "col-12 col-sm-6 col-lg-4 option">
+           <h3 class = "title">Option C</h3>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil doloremque iste ea sequi praesentium labore, repellat, obcaecati porro animi et rem maiores vel cumque quas aliquid, suscipit illum quasi laborum?</p>
+           <a class = "price title" href = "">$29.99</a>
+         </div>
+         <form id = "cart" class = "row" method = "GET" action = "checkout.html" oninput="calculate()">
+           Options:
+           <select name="options" id="options">
+             <option value="19.99">Buy A</option>
+             <option value="24.99">Buy B</option>
+             <option value="29.99">Buy C</option>
+           </select>
+           Months: <input id = "time" name = "time" type = "number" value = "12" min = "0">
+           Total: <output id = "result" name = "out" for = "option time"></output>
+           <input type="submit" value = "submit">
+         </form>
+       </div>
+       
+    </section>
+    <script>
+      function calculate(){
+       let doc = document;
+       let option = doc.getElementById("options");
+       let time = doc.getElementById("time");
+       let result = doc.getElementById("result");
+        result.value = "$" + Number(parseFloat(option.value) * parseInt(time.value)).toPrecision(5);
+     }
+    </script>
+<!-- YOUR CSS STYLES -->
+<link rel="stylesheet" href="yourstyles.css">
 </head>
 <body>
-  <header>
-    <h1 class= "title">Best Comapnay Name (Ilan Corp)</h1>
+ <header>
+   <h1 class = "title">Andrew & co.</h1>
+ </header>
+ <form class ="container" action = "">
+   <div class = "row">
+     <div class = "col">
+         <h3>Shipping</h3>
+         <input type="text" name = "name" value = "your name"><br>
+         <input type="text" name = "street" value = "street name"><br>
+         <input type="text" name = "apt" value = "apt #"><br>
+         <input type="text" name = "city" value = "city"><br>
+         <input type="text" name = "state" value = "state"><br>
+         <input type="text" name = "zip" value = "zip"><br>
 
-  </header>
-  <form class="container" actions""">
-    <div class="row">
-      <div class="col">
-        <input type="text" name="name" value="your name"><br>
-        <input type="text" name="street" value="street name"><br>
-        <input type="text" name="apt" value=""><br>
-        <input type="text" name="city" value="city"><br>
-        <input type="text" name="state" value="state"><br>
-        <input type="text" name="zip" value="zip"><br>
-        
-      </div>
-    </div>
-<div class="col">
-  
-</div>
-  </form>
-</body>
+
+     </div>
+     <div class = "col"></div>
+
+   </div>
+
+   <div class = "col">
+       <h3>Payment</h3>
+       <input type="text" name = "card" value = "xxxx-xxxx-xxxx-xxxx"><br>
+       <input type="text" name = "cvv" value = "xxx"><br>
+
+   </div>
+
+
+ </form>
